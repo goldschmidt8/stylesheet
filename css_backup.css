@@ -1,0 +1,707 @@
+/* AENDERUNGEN DES CSS - SOURCE 22.09 - LINKS OBEN WERDEN ENDLICH ROT SEIN */
+
+li.breadcrumb-item a:hover {
+    color: black;
+    transition: 0.2s all;
+}
+li.breadcrumb-item a {
+    color: #b71e3f;
+    transition: 0.2s all;
+}
+
+#breadcrumb-container a {
+    border-bottom: none;
+    color: #b71e3f;
+}
+
+/* AENDERUNGEN DES CSS - SOURCE 22.09 */
+
+a, a:hover {    
+transition: all 0.3s;
+border-bottom: 0px #0078A3;
+}
+
+#main a:hover {
+    transition: all 0.3s;
+    border-bottom: 0px;
+}
+
+
+
+/* NEUE AUTOMATISCHE SUB-SEITEN-FELDER */
+
+p.credits {
+color: #6c549f;
+font-weight:bold;
+}
+
+.content-sub-menu > ul > li.separator {
+    margin: 16px 0 8px 0;
+    color: white;
+    padding: 4px;
+    background: #00000024;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.content-sub-menu > ul, ul.txtlist {
+    padding: 0;
+    list-style: none;
+    margin-left: -15px;
+}
+
+nav.content-sub-menu a:link, nav.content-sub-menu a:active, nav.content-sub-menu a:visited {
+    color: white!important;
+text-shadow: 0px 1px 1px #0000004a;
+}
+}
+
+nav.content-sub-menu a:hover {
+    color: #b81e3f;
+text-shadow: 0px 1px 1px #0000004a;
+}
+}
+
+
+.content-sub-menu > ul > li.separator {
+    margin: 6px 0px 1px 0;
+    color: white;
+    padding-left: 30px;
+    background: #0000001a;
+    width: auto;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+nav.content-sub-menu {
+    color: green!important;
+    background: #b81e3f;
+    padding: 20px;
+    color: #b81e3f!important;
+-webkit-box-shadow: 0px 10px 15px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 15px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 15px -10px rgba(0,0,0,0.75);
+ -webkit-transition: all 0.6s;
+transition: all 0.6s;
+background-image: url("www.uni-goettingen.de/docs/cae34b632d821fc879525fdc4a16e85d.png");
+background-size:80%;
+    border-radius: 4px;
+}
+
+nav.content-sub-menu:hover {
+    background: #929292;
+    padding: 20px;
+    color: #b81e3f!important;
+-webkit-box-shadow: 0px 31px 15px -10px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 31px 15px -10px rgba(0,0,0,0.23);
+box-shadow: 0px 31px 15px -10px rgba(0,0,0,0.23);
+ -webkit-transition: all 0.6s;
+transition: all 0.6s;
+background-image: url("www.uni-goettingen.de/docs/cae34b632d821fc879525fdc4a16e85d.png");
+background-size:100%;
+    border-radius: 4px;
+}
+
+.content-sub-menu > ul > li:not(.separator), ul.txtlist > li{
+    margin: 4px 0 4px 24px;
+    position: relative;
+    text-align: left;
+    background: transparent;
+width: max-content;
+    padding: 5px;
+ -webkit-transition: all 0.2s;
+transition: all 0.2s;
+border-bottom: 1px solid #ffffff3b;
+}
+
+
+.content-sub-menu > ul > li:visited:not(.separator), ul.txtlist > li{
+    margin: 4px 0 4px 24px;
+    position: relative;
+    text-align: left;
+    background: transparent;
+width: max-content;
+    padding: 5px;
+ -webkit-transition: all 0.2s;
+transition: all 0.2s;
+border-bottom: 1px solid #ffffff;
+}
+
+.content-sub-menu > ul > li:hover:not(.separator), ul.txtlist > li{
+    margin: 4px 0 4px 24px;
+    position: relative;
+    text-align: left;
+    background: transparent;
+width: max-content;
+    padding: 5px;
+ -webkit-transition: all 0.2s;
+transition: all 0.2s;
+border-bottom: 1px solid #ffffff;
+padding-left: 15px;
+padding-right: 15px;
+    background-color: #00000026;
+}
+
+.content-sub-menu > ul > li:not(.separator)::before, ul.txtlist > li::before {
+    position: absolute;
+    text-align: center;
+    left: -24px;
+    width: 24px;
+    content: none;
+}
+
+/* BENACHRICHTIGUNGEN */
+
+#benachrichtigung_sowi {
+	-webkit-box-shadow: 0px 3px 48px -31px rgba(13,13,13,1);
+-moz-box-shadow: 0px 3px 48px -31px rgba(13,13,13,1);
+box-shadow: 0px 3px 48px -31px rgba(13,13,13,1);
+padding:20px;
+color: black;
+text-align: center;
+background-image: url("https://www.uni-goettingen.de/docs/5a7927ef6e84d421e6a3fe3cbc67d9e1.png");
+background-repeat:repeat;
+    background-size: 50%;
+    	  transition: all 0.5s ease-in-out;
+    	      background-position: center;
+}
+
+#benachrichtigung_sowi:hover {
+	    background-size: 100%;
+	    	  transition: all 0.5s ease-in-out;
+}
+
+img.side-image {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: none;
+}
+
+#main {
+	overflow-x: hidden;
+}
+
+#main a,  #main a:visited {
+    color: #b71d3f;
+text-decoration: none;
+	transition:all 0.3s;
+}
+
+#main a:hover {
+color: #333333; 
+	transition:all 0.3s;
+	}
+}
+
+.linkmenu {
+display:none;
+}
+
+#page-navigation {
+    padding-top: 3px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+#page-content article {
+    text-align: justify;
+    padding-bottom: 50px;
+    font-size: 18px;
+    overflow: initial;
+}
+
+.box {
+display:none;
+}
+
+.container_hauptelemente {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;}
+    
+    /* KLEINIGKEITEN */
+hr {
+display:none;
+}
+
+.header-image {
+display:none;
+}
+
+.col-sm-8 {
+    width: 100%;
+}
+
+#page-navigation {
+    padding: 0px 0;
+    padding-top: 3px;
+    margin-top: 0px;
+}
+
+#page-content article .headline {
+display:none;
+}
+
+.col-sm-4 {
+    width: 30%;
+    top: -20px;
+    float: right;
+}
+
+ol.box li:not(.separator), .linkmenu > li {
+    display: none;
+}
+
+
+/* PERSÃ–NLICHER CONTAINER MIT KONTAKTDATEN IM HEADER */
+#left {
+	float:left;
+}
+
+#right {
+    width: 500px;
+    float:left;
+    overflow: visible;
+    padding: 30px;
+    font-size: 15px;
+    margin-top: -50px;
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#00ffffff',GradientType=0 );
+}
+
+	#besonderes_container {
+    width:inherit;
+    margin-top:0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+
+
+/* MODALS */
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #8c152d;}
+
+.modal-backdrop {
+    position: fixed;
+    z-index: 0;
+    display:none;
+}
+
+.modal.fade .modal-dialog {
+top: 10%;
+}
+
+.modal-header .close {
+    margin-top: -25px;
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 16pt;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:white;
+}
+
+.modal-content {
+	text-align: center;
+	border:none;
+	border-radius: 0px;
+	
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    backdrop-filter: blur(8px) brightness(0.5);
+-webkit-backdrop-filter: blur(8px) brightness(0.5);
+}
+
+
+/* AUSKLAPPPFEILE */
+
+.collapse-box:not(.transparent), .collapse-button:not(.transparent) {
+    background: #f7f7f7;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 0px 4px 12px -5px #0000002e;
+    }
+
+.collapse-button::before {
+    content: "\f078";
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    margin-top: -10px;
+    font-size: 17px;
+    display: block;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    background: transparent;
+    border-radius: 100%;
+    color: #b71d3f;
+}
+
+/* CSS NEWS */
+
+.mit_pic {
+	background-size:100%;
+	width: 330px;
+	height: 160px;
+	  transition: all 0.3s ease-in-out;
+	  	filter: brightness(1.2) opacity(1.0);
+	  	    box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+
+}
+
+.mit_pic:hover {
+	background-size:110%;
+	filter: brightness(1.1) opacity(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.mit_pic:hover .mit_text {
+	position:relative;
+    position: relative;
+	text-align: center;
+    opacity:1;
+    transition: all 0.3s ease-in-out;
+    z-index:2;
+    backdrop-filter: blur(8px);
+}
+
+
+.mit_text {
+	position:relative;
+    position: relative;
+	text-align: center;
+	opacity:0;
+	transition: all 0.3s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #040404;
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-size: 13px;
+    z-index:2;
+    height: inherit;
+    background: #ffffffa3;;
+    padding:20px;
+
+}
+
+.container_mitarbeiter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#cont_single_mit {
+	height:200px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* ANSPRECHPARTNER */
+.ansprech_pic {
+	border-radius:100%;
+	background-size:100%;
+	width: 250px;
+	height: 250px;
+	  transition: all 0.7s ease-in-out;
+	  	filter: brightness(1.2);
+
+}
+
+.ansprech_pic:hover {
+	background-size:110%;
+	filter: brightness(1.4);
+  transition: all 0.7s ease-in-out;
+}
+
+.ansprech_text {
+	position:relative;
+    position: relative;
+	text-align: center;
+	top: 253px;
+	width: 255px;
+
+}
+
+.container_ansprech {
+    justify-content: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    	min-width: 265px;
+}
+
+#cont_single_ansprech {
+	height:350px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+
+
+/* DIESER TEIL DEFINIERT DIE NEWS */
+
+#news_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+	
+}
+
+#news1 {
+	background-image:url('www.uni-goettingen.de/docs/0591221a26592271bd9cc6a1d4ef036c.JPG');
+	background-repeat:no-repeat;
+	background-position:center;
+    background-size: 100%;
+    width: 328px;
+    height: 173px;
+                filter: brightness(85%);
+    background-color: black;	
+            -webkit-transition:all .5s;
+    transition: all .5s;
+    overflow:hidden;
+box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 24px 40px -35px rgba(0,0,0,0.75);
+margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+#news1:hover {
+	background-image:url('www.uni-goettingen.de/docs/0591221a26592271bd9cc6a1d4ef036c.JPG');
+	background-repeat:no-repeat;
+	background-position:center;
+    background-size: 100%;
+    width: 328px;
+    height: 173px;
+    background-color: black;
+        -webkit-transition: all .5s;
+            transition: all .5s;
+            overflow:hidden;
+            filter: brightness(100%);
+            -webkit-box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75);
+box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75);
+
+margin-top: 0px;
+    margin-right: 10px;
+            }
+
+#news1:hover #news_text {
+	    bottom: -100px;
+	                -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+            filter: brightness(100%);
+            z-index: 99999;
+}
+
+
+#news_text {
+    color: #ffffff;
+    background-color: #b71e3f;
+    width: 328px;
+    height: 200px;
+    position: relative;
+    bottom: -143px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+            -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+                filter: brightness(100%);
+                z-index: 99999;
+}
+
+.newy {
+	text-decoration: none;
+}
+
+
+/* DIESER TEIL DEFINIERT DEN PLATZHALTER DES ROTEN */
+
+#grau {background-color: none;width: 150px;height: 193px;-webkit-transition: all 0.2s;transition: all 0.2s;margin-right: 5px;}
+
+
+#grau:hover {
+	    -webkit-transition: all 0.2s;
+	    transition: all 0.2s;
+	    background-size: 280%;
+}
+
+/* DIESER TEIL DEFINIERT DEN ROTEN BUTTON AN SICH - ANIMATION */
+
+#grau:hover #rot {width: 130px;height: 130px;margin: auto;margin-top: 0px;-webkit-transition: all 0.2s;transition: all 0.2s;background-image: url(www.uni-goettingen.de/docs/07ce254e8b405dd48a06f328c8d26c3f.png);box-shadow: inset 0 0 80px 0px #9e1734;border-radius: 900px;-webkit-box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75);-moz-box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75);box-shadow: -1px 34px 55px -32px rgba(0,0,0,0.75); border: 3px solid #9f1c39;}
+
+/* MAUS ÃœBER DEN GRAUEN (verÃ¤nd. im Roten) BUTTON, DAS BILD (zB. Student oder anderes Bild) WIRD AUCH GRÃ–ÃŸER */
+
+#grau:hover .imi {
+    margin-top: 35px;
+-webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    transform: scale(1.3);
+
+}
+
+#grau:hover .text {
+color: #333333;
+margin-top: 10px;
+
+}
+
+
+/* MAUS ÃœBER DEN GRAUEN BUTTON UND TEXT WIRD GRÃ–ÃŸER */
+
+#grau:hover .text {
+	transform: scale(1.2);
+}
+
+
+/* DEFINIERT DAS AUSSEHEN DES ROTEN BUTTONS */
+
+
+#rot {background-color: #b61e3f;background-image: url(www.uni-goettingen.de/docs/62a84168560e53aea4bd03067413ff62.png);width: 120px;height: 118px;margin: auto;margin-top: 15px;-webkit-transition: all 0.2s;transition: all 0.2s;border-radius: 90px;/* border: 3px solid #9f1c39; */}
+
+.auto-style1 {
+	text-align: center;
+	margin-top: 6px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+/* DEFINIERT DIE MINIBILDER IM ROTEN BUTTON */
+
+.imi {
+	vertical-align: middle;
+	margin-top: 32px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+/* DEFINIERT TEXT IM ROTEN BUTTON */
+
+.text {
+	text-align: center;
+	color: #787878;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	font-size: 16px;
+	margin-top: 9px;
+	margin-left: 0px;
+	vertical-align: middle;
+	align-content: middle;
+}
+
+.auto-style2 {
+	margin-left: 0px;
+	vertical-align: middle;
+	align-content: middle;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+/* header */
+
+#header {
+	background-color: #b61e3f; 
+	height: 300px;
+	background-image: url("www.uni-goettingen.de/docs/975248a5d1048b6809b4ba7762b1ccdd.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	margin: auto;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    top: -25px;
+}
+
+#content {
+    position: relative;
+    margin: auto;
+    text-align: center;	
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.head_logo {
+    background: #7e18397d;
+    border-radius: 100%;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+    }
+    
+.head_text {
+	font-family: arial;
+	color:white;
+	font-weight:bold;
+}
+    
+.head_text {
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+    
+.head-text {
+	font-family: arial;
+	font-size:20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	  letter-spacing: 3px;
+	  text-shadow: -1px 0px 5px rgba(0,0,0,0.10);
+}
+
+.kurztext {
+	font-family: arial;
+	font-size:16px;
+	color: white;
+	font-weight: regular;
+	font-style:italic;
+	margin-bottom: 5px;
+    margin-top: -5px;
+	letter-spacing: 1px;
+	text-shadow: -1px 0px 5px rgba(0, 0, 0, 0.14);
+
+}
